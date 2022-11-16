@@ -1,0 +1,42 @@
+db.ingredients.insert([
+    {
+        "ingredient_id" : 1,
+        "ingredient_name" : "onion",
+    },
+    {
+        "ingredient_id" : 2,
+        "ingredient_name" : "aloevera",
+    },
+    {
+        "ingredient_id" : 3,
+        "ingredient_name" : "ubtan",
+    },
+    {
+        "ingredient_id" : 4,
+        "ingredient_name" : "vitaminE",
+    },
+    {
+        "ingredient_id" : 5,
+        "ingredient_name" : "apple cider",
+    },
+    {
+        "ingredient_id" : 6,
+        "ingredient_name" : "orange",
+    },
+    {
+        "ingredient_id" : 7,
+        "ingredient_name" : "activated charcoal"
+    },
+    {
+        "ingredient_id" : 8,
+        "ingredient_name" : "chocolate"
+    },
+    {
+        "ingredient_id" : 9,
+        "ingredient_name" : "rose"
+    },
+    {
+        "ingredient_id" : 10,
+        "ingredient_name" : "coconut"
+    }
+])

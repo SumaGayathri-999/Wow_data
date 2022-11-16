@@ -1,0 +1,24 @@
+db.category.insert([
+    {
+        "category_id" : 1,
+        "category_name" : "skin care"
+    },
+    {
+        "category_id" : 2,
+        "category_name" : "hair care"
+    },
+    {
+        "category_id" : 3,
+        "category_name" : "body care"
+    },
+    {
+        "category_id" : 4,
+        "category_name" : "nutrition & health"
+    },
+    {
+        "category_id" : 5,
+        "category_name" : "kid's care"
+    }
+    
+])
+   

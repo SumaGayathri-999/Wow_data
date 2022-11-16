@@ -1,0 +1,44 @@
+db.concern.insert([
+    {
+        "concern_id" : 1,
+        "concern_type" : "oily skin"
+    },
+    {
+        "concern_id" : 2,
+        "concern_type" : "anti-acne"
+    },
+    {
+        "concern_id" : 3,
+        "concern_type" : "skin brightening"
+    },
+    {
+        "concern_id" : 4,
+        "concern_type" : "hair fall"
+    },
+     {
+        "concern_id" : 5,
+        "concern_type" : "hair dandruff"
+    },
+    {
+        "concern_id" : 6,
+        "concern_type" : "anti-agening"
+    },
+    {
+       "concern_id" : 7,
+       "concern_type" :"anti-pigmentation"
+    },
+    {
+        "concern_id" : 8,
+        "concern_type" :"dry-skin"
+    },
+    {
+      "concern_id" : 9,
+      "concern-type" : "anti-tanning"
+    },
+    {
+        "concern_id" : 10,
+      "concern-type" : "health"
+    },
+   
+    
+])

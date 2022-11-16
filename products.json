@@ -1,0 +1,334 @@
+db.products.insert([
+    {
+       "product_id" : 1,
+       "product_name" : "aloevera",
+       "category_id" : [1,2,3],
+       "ingredient_id" : 2,
+       "concern_id" :[2,3,4,5,7],
+       "product_type_id" : 1,
+       "quantity" :[
+        {
+            
+            "size" : 150,
+            "unit" : "ml",
+            "price" : 299
+        },
+        {
+            "size" : 250,
+            "unit" : "ml",
+            "price" : 499
+        },
+        {
+            "size" : 500,
+            "unit" : "ml",
+            "price" : 899
+        }
+       ],
+       "image" : "../assets/aloevera-gel_6_.jpg",
+       "description" : "aloevera gel for glowing ,hydrating and soothing skin"
+    },
+    {
+        "product_id" : 2,
+        "product_name" : "ubtan face serum",
+        "category_id" : 1,
+        "ingredient_id" : 3,
+        "concern_id" : 9,
+        "product_type_id" : 2,
+        "quantity" :[
+         {
+             "size" : 30,
+             "unit" : "ml",
+             "price" : 599
+         }
+        
+        ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "ubtan face serum - 30 ml"
+     },
+     {
+        "product_id" : 3,
+        "product_name" : "activated charcoal",
+        "category_id" : 1,
+        "ingredient_id" : 7,
+        "concern_id" :[2,7,8],
+        "product_type_id" : 3,
+        "quantity" : [
+            {
+                "size" : 100,
+                "unit" : "ml",
+                "price" : 399
+            }
+           
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "activated charcoal peel off mask"
+     },
+     {
+        "product_id" : 4,
+        "product_name" : "rose otto foaming body wash",
+        "category_id" : 3,
+        "ingredient_id" : 9,
+        "concern_id" :[3,8],
+        "product_type_id" : 4,
+        "quantity" : [
+            {
+                "size" : 250,
+                "unit" : "ml",
+                "price" : 339
+            }
+           
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "rose otto foaming body wash"
+     },
+     {
+        "product_id" : 5,
+        "product_name" : "Aloevera body lotion",
+        "category_id" : 3,
+        "ingredient_id" : 2,
+        "concern_id" : 8,
+        "product_type_id" : 4,
+        "quantity" : [
+            {
+                "size" : 400,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 399
+            },
+            {
+                "size" : 400,
+                "items" : 2,
+                "unit" : "ml",
+                "price" : 798
+            }
+           
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "Aloevera body lotion (ultra light) for dry skin"
+     },
+     {
+        "product_id" : 6,
+        "product_name" : "vitamin E body butter",
+        "category_id" : 3,
+        "ingredient_id" : 4,
+        "concern_id" : [8,3],
+        "product_type_id" : 4,
+        "quantity" : [
+            {
+                "size" : 200,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 499
+            },
+           
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "vitamin E body butter - no parabens,silicons,mineral oil & color - 200 ml"
+     },
+     {
+        "product_id" : 7,
+        "product_name" : "apple cider vinegar shampoo",
+        "category_id" : 2,
+        "ingredient_id" : 5,
+        "concern_id" : [4,5],
+        "product_type_id" : 7,
+        "quantity" : [
+            {
+                "size" : 300,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 449
+            },
+           
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "apple cider vinegar shampoo for dandruff. hair growth & hair fall control"
+     },
+     {
+        "product_id" : 8,
+        "product_name" : "onion hair oil",
+        "category_id" : 2,
+        "ingredient_id" : 1,
+        "concern_id" : [4,5],
+        "product_type_id" : 8,
+        "quantity" : [
+            {
+                "size" : 650,
+                "items" : 3,
+                "unit" : "ml",
+                "price" : 999
+            },
+            {
+                "size" : 850,
+                "items" : 4,
+                "unit" : "ml",
+                "price" : 1671
+            },     
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "onion hair oil ultimate hair care combp kit for hair fall control"
+     },
+     {
+        "product_id" : 9,
+        "product_name" : "onion hair oil",
+        "category_id" : 2,
+        "ingredient_id" : 1,
+        "concern_id" : [4,5],
+        "product_type_id" : 8,
+        "quantity" : [
+            {
+                "size" : 650,
+                "items" : 3,
+                "unit" : "ml",
+                "price" : 999
+            },
+            {
+                "size" : 850,
+                "items" : 4,
+                "unit" : "ml",
+                "price" : 1671
+            },     
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "onion hair oil ultimate hair care combp kit for hair fall control"
+     },
+     {
+        "product_id" : 9,
+        "product_name" : "coconut milk shampoo",
+        "category_id" : 2,
+        "ingredient_id" : 10,
+        "concern_id" : [4,5],
+        "product_type_id" : 7,
+        "quantity" : [
+            {
+                "size" : 300,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 499
+            }   
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "coconut milk shampoo"
+     },
+     {
+        "product_id" : 10,
+        "product_name" : "extra virgin coconut oil",
+        "category_id" : 4,
+        "ingredient_id" : 10,
+        "concern_id" : 10,
+        "product_type_id" : 8,
+        "quantity" : [
+            {
+                "size" : 400,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 499
+            }   
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "extra virgin coconut oil"
+     },
+     {
+        "product_id" : 11,
+        "product_name" : "organic apple cider vineger",
+        "category_id" : 4,
+        "ingredient_id" : 5,
+        "concern_id" : 10,
+        "product_type_id" : 9,
+        "quantity" : [
+            {
+                "size" : 400,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 399
+            },
+            {
+                "size" : 750,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 599
+            }   
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "organic apple cider vineger for weight loss & detoxification"
+     },
+     {
+        "product_id" : 12,
+        "product_name" : "plant based protein powder -chocolate flavour",
+        "category_id" : 4,
+        "ingredient_id" : 8,
+        "concern_id" : 10,
+        "product_type_id" : 10,
+        "quantity" : [
+            {
+                "size" : 1,
+                "items" : 1,
+                "unit" : "kg",
+                "price" : 2349
+            },
+            {
+                "size" : 500,
+                "items" : 1,
+                "unit" : "g",
+                "price" : 1299
+            }   
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "plant based protein powder -chocolate flavour-for a healthier lifestyle"
+     },
+     {
+        "product_id" : 13,
+        "product_name" : "3 in 1 tip to toe wash",
+        "category_id" : 5,
+        "ingredient_id" : 10,
+        "product_type_id" : [7,4],
+        "quantity" : [
+            {
+                "size" : 300,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 399
+            }
+            
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "3 in 1 tip to toe wash - coconut shampoo + conditioner + body wash -no sulphates & parabens - 300 ml"
+     },
+     {
+        "product_id" : 14,
+        "product_name" : "kids tip to toe wash",
+        "category_id" : 5,
+        "ingredient_id" : 5,
+        "product_type_id" : [7,4],
+        "quantity" : [
+            {
+                "size" : 300,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 399
+            }
+            
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "kids tip to toe wash - shampoo + conditioner - body wash -no parabens,sulphate,silicons,mineral oil or color - peach - 300 ml"
+     },
+     {
+        "product_id" : 15,
+        "product_name" : "3 in 1 tip to toe wash",
+        "category_id" : 5,
+        "ingredient_id" : 6,
+        "product_type_id" : [7,4],
+        "quantity" : [
+            {
+                "size" : 300,
+                "items" : 1,
+                "unit" : "ml",
+                "price" : 399
+            }
+            
+           ],
+        "image" : "../assets/aloevera-gel_6_.jpg",
+        "description" : "3 in 1 tip to toe wash - sweet orange kids shampoo + conditioner - body wash -no sulphate & parabens - 300 ml"
+     },
+    
+])
